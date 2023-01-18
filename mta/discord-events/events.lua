@@ -21,7 +21,7 @@ addEventHandler("onPlayerJoin", root,
     end
 )
 
-addEventHandler("onPlayerQuit", root,
+addEventHandler("onPlayerQuit", root, -- giriş çıkış bildirim
     function (quitType, reason, responsible)
         local playerName = getPlayerName(source)
         
